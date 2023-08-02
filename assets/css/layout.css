@@ -3,6 +3,7 @@
   max-width: 144rem;
   padding: 4rem 3rem;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 /* HERO */
@@ -33,4 +34,59 @@
 
 .hero__btn {
   margin-top: 1rem;
+}
+
+/* FEATURES */
+.section-features {
+  margin-top: 6rem;
+}
+
+.section-features__intro {
+  text-align: center;
+}
+
+.section-features-intro__heading {
+  margin-bottom: 2rem;
+}
+
+.features {
+  margin-top: 4rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.feature__heading {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.feature__heading--1::before {
+  content: '01';
+}
+.feature__heading--2::before {
+  content: '02';
+}
+.feature__heading--3::before {
+  content: '03';
+}
+
+.feature__heading::before {
+  padding: 0.8rem 2rem;
+  color: #fff;
+  background-color: var(--bright-red);
+  border-radius: 2rem;
+  margin-right: 1.3rem;
+}
+
+.feature__heading::after {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  right: -100%;
+  top: -0.6rem;
+  background-color: var(--very-pale-red);
+  padding: 1.8rem 4rem;
+  z-index: -2;
 }
