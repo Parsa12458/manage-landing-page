@@ -1,0 +1,25 @@
+.btn {
+  outline: 0;
+  border: 0;
+  padding: 1.2rem 3rem;
+  background: none;
+  border-radius: 2rem;
+  letter-spacing: 0.8px;
+  box-shadow: 0 0.7rem 1.5rem rgba(242, 95, 58, 0.5);
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.btn--orange {
+  background-color: var(--bright-red);
+  color: #fff;
+}
+
+.btn--white {
+  background-color: #fff;
+  color: var(--bright-red);
+}
+
+.btn:hover {
+  opacity: 0.75;
+}

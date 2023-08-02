@@ -1,5 +1,36 @@
 .container {
   min-width: 37.5rem;
+  max-width: 144rem;
   padding: 4rem 3rem;
   margin: 0 auto;
+}
+
+/* HERO */
+.section--hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.hero__illustration {
+  width: 85%;
+  margin-top: 3rem;
+}
+
+.hero__textbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero__heading {
+  color: var(--dark-blue);
+}
+
+.hero__btn {
+  margin-top: 1rem;
 }
