@@ -90,3 +90,17 @@
   padding: 1.8rem 4rem;
   z-index: -2;
 }
+
+/* TESTIMONIAL */
+.section--testimonial {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.section-testimonial__heading {
+  margin-bottom: 3rem;
+}
+
+.section-testimonial__btn {
+  margin-top: 4rem;
+}
