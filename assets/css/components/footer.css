@@ -48,6 +48,7 @@
 .footer__social-media-container > img {
   width: 3.5rem;
   cursor: pointer;
+  transition: filter 0.2s;
 }
 
 .footer__social-media-container > img:hover {

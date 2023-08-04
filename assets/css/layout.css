@@ -118,3 +118,11 @@
   color: #fff;
   margin-bottom: 2rem;
 }
+
+.section {
+  transition: opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+}
