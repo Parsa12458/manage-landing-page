@@ -5,13 +5,34 @@
   padding: 5rem 2rem;
 }
 
-.footer__searchbox {
+.footer__form {
+  width: max-content;
+  margin: 0 auto;
   margin-bottom: 4rem;
 }
 
 .footer__btn {
   box-shadow: none !important;
   margin-left: 0.8rem;
+}
+
+.footer__form-error {
+  color: var(--bright-red);
+  font-size: 1.2rem;
+  position: absolute;
+  margin-top: 0.8rem;
+  margin-left: 2.5rem;
+
+  display: none;
+}
+
+.footer__input {
+  border: 4px solid transparent;
+}
+
+.footer__input--error {
+  border: 4px solid var(--bright-red);
+  color: var(--bright-red);
 }
 
 .footer__nav-container {
