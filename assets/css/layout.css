@@ -104,3 +104,17 @@
 .section-testimonial__btn {
   margin-top: 4rem;
 }
+
+/* CTA */
+.section--cta {
+  text-align: center;
+  background-color: var(--bright-red);
+  padding: 10rem 3rem;
+  min-width: 37.5rem;
+  max-width: 144rem;
+}
+
+.section-cta__heading {
+  color: #fff;
+  margin-bottom: 2rem;
+}
