@@ -12,8 +12,10 @@ export default function () {
     // Toggle Icon
     if (toggleBtn.getAttribute('src') === iconCloseUrl) {
       toggleBtn.setAttribute('src', iconHamburgerUrl);
+      document.body.classList.remove('no-scroll');
     } else {
       toggleBtn.setAttribute('src', iconCloseUrl);
+      document.body.classList.add('no-scroll');
     }
 
     // Show/Hide the navigation
