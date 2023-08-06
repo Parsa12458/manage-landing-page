@@ -6,6 +6,22 @@
   overflow-x: hidden;
 }
 
+/* BACKGROUNDS */
+.background-container {
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100vh;
+  position: absolute;
+}
+
+.body__background {
+  position: absolute;
+  right: -30vw;
+  top: -10rem;
+  width: 100%;
+  z-index: -5;
+}
+
 /* HERO */
 .section--hero {
   display: flex;
@@ -38,7 +54,7 @@
 
 /* FEATURES */
 .section-features {
-  margin-top: 6rem;
+  margin-top: 7rem;
 }
 
 .section-features__intro {

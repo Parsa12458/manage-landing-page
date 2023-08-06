@@ -27,11 +27,11 @@
 }
 
 .footer__input {
-  border: 4px solid transparent;
+  border: 0.4rem solid transparent;
 }
 
 .footer__input--error {
-  border: 4px solid var(--bright-red);
+  border: 0.4rem solid var(--bright-red);
   color: var(--bright-red);
 }
 
