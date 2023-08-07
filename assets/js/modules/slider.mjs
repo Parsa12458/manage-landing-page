@@ -11,6 +11,14 @@ export default new Swiper('.swiper', {
   // Grab cursor
   grabCursor: true,
 
+  breakpoints: {
+    // when window width is >= 80em
+    1280: {
+      slidesPerView: 'auto',
+      spaceBetween: 40,
+    },
+  },
+
   // Pagination
   modules: [Pagination],
   pagination: {

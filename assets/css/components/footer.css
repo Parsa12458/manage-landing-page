@@ -1,8 +1,12 @@
 .section--footer {
   min-width: 37.5rem;
-  max-width: 144rem;
   background-color: var(--very-dark-blue);
   padding: 5rem 2rem;
+}
+
+.footer-container {
+  max-width: 144rem;
+  margin: 0 auto;
 }
 
 .footer__form {

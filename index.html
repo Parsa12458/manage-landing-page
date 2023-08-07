@@ -20,6 +20,7 @@
         class="body__background"
       />
     </div>
+
     <div class="container">
       <header class="header">
         <img
@@ -32,6 +33,28 @@
           alt="hamburger icon"
           class="header__ham-icon"
         />
+
+        <div class="header__nav-container--desktop">
+          <ul class="desktop-nav__ul">
+            <li class="header__nav-list">
+              <a href="#" class="header__nav-link">Pricing</a>
+            </li>
+            <li class="header__nav-list">
+              <a href="#" class="header__nav-link">Product</a>
+            </li>
+            <li class="header__nav-list">
+              <a href="#" class="header__nav-link">About Us</a>
+            </li>
+            <li class="header__nav-list">
+              <a href="#" class="header__nav-link">Careers</a>
+            </li>
+            <li class="header__nav-list">
+              <a href="#" class="header__nav-link">Community</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="btn btn--orange header__btn">Get Started</button>
 
         <nav class="header__nav-container hidden">
           <ul class="header__nav-ul">
@@ -72,7 +95,7 @@
         </div>
       </section>
 
-      <section class="section section-features">
+      <section class="section section--features">
         <div class="section-features__intro">
           <h2 class="heading-2 section-features-intro__heading">
             What's different about Manage?
@@ -196,65 +219,69 @@
     </div>
 
     <section class="section section--cta">
-      <h1 class="heading-1 section-cta__heading">
-        Simplify how your team works today.
-      </h1>
-      <button class="btn btn--white">Get Started</button>
+      <div class="cta-container">
+        <h1 class="heading-1 section-cta__heading">
+          Simplify how your team works today.
+        </h1>
+        <button class="btn btn--white">Get Started</button>
+      </div>
     </section>
 
     <footer class="section section--footer">
-      <form class="footer__form">
-        <input
-          type="text"
-          class="text-input footer__input"
-          placeholder="Updates in your inbox..."
+      <div class="footer-container">
+        <form class="footer__form">
+          <input
+            type="text"
+            class="text-input footer__input"
+            placeholder="Updates in your inbox..."
+          />
+          <p class="footer__form-error"></p>
+          <button class="btn btn--orange footer__btn">GO</button>
+        </form>
+        <nav class="footer__nav-container">
+          <ul class="footer__nav-ul">
+            <li class="footer__nav-list">
+              <a href="#" class="footer__nav-link">Home</a>
+            </li>
+            <li class="footer__nav-list">
+              <a href="#" class="footer__nav-link">Careers</a>
+            </li>
+            <li class="footer__nav-list">
+              <a href="#" class="footer__nav-link">Pricing</a>
+            </li>
+            <li class="footer__nav-list">
+              <a href="#" class="footer__nav-link">Community</a>
+            </li>
+            <li class="footer__nav-list">
+              <a href="#" class="footer__nav-link">Products</a>
+            </li>
+            <li class="footer__nav-list">
+              <a href="#" class="footer__nav-link">Privacy Policy</a>
+            </li>
+            <li class="footer__nav-list">
+              <a href="#" class="footer__nav-link">About Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footer__social-media-container">
+          <img src="./assets/images/icon-facebook.svg" alt="facebook icon" />
+          <img src="./assets/images/icon-youtube.svg" alt="youtube icon" />
+          <img src="./assets/images/icon-twitter.svg" alt="twitter icon" />
+          <img src="./assets/images/icon-pinterest.svg" alt="pinterest icon" />
+          <img src="./assets/images/icon-instagram.svg" alt="instagram icon" />
+        </div>
+
+        <img
+          src="./assets/images/logo.svg"
+          alt="manage logo"
+          class="footer__logo"
         />
-        <p class="footer__form-error"></p>
-        <button class="btn btn--orange footer__btn">GO</button>
-      </form>
-      <nav class="footer__nav-container">
-        <ul class="footer__nav-ul">
-          <li class="footer__nav-list">
-            <a href="#" class="footer__nav-link">Home</a>
-          </li>
-          <li class="footer__nav-list">
-            <a href="#" class="footer__nav-link">Careers</a>
-          </li>
-          <li class="footer__nav-list">
-            <a href="#" class="footer__nav-link">Pricing</a>
-          </li>
-          <li class="footer__nav-list">
-            <a href="#" class="footer__nav-link">Community</a>
-          </li>
-          <li class="footer__nav-list">
-            <a href="#" class="footer__nav-link">Products</a>
-          </li>
-          <li class="footer__nav-list">
-            <a href="#" class="footer__nav-link">Privacy Policy</a>
-          </li>
-          <li class="footer__nav-list">
-            <a href="#" class="footer__nav-link">About Us</a>
-          </li>
-        </ul>
-      </nav>
 
-      <div class="footer__social-media-container">
-        <img src="./assets/images/icon-facebook.svg" alt="facebook icon" />
-        <img src="./assets/images/icon-youtube.svg" alt="youtube icon" />
-        <img src="./assets/images/icon-twitter.svg" alt="twitter icon" />
-        <img src="./assets/images/icon-pinterest.svg" alt="pinterest icon" />
-        <img src="./assets/images/icon-instagram.svg" alt="instagram icon" />
+        <p class="footer__copyright leading">
+          Copyright 2023. All Rights Reserved
+        </p>
       </div>
-
-      <img
-        src="./assets/images/logo.svg"
-        alt="manage logo"
-        class="footer__logo"
-      />
-
-      <p class="footer__copyright leading">
-        Copyright 2023. All Rights Reserved
-      </p>
     </footer>
   </body>
 </html>

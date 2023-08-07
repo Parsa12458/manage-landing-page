@@ -9,6 +9,11 @@
   z-index: 100;
 }
 
+.header__nav-container--desktop,
+.header__btn {
+  display: none;
+}
+
 .hidden {
   opacity: 0;
   pointer-events: none;
